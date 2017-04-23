@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+
+    <item
+        android:id="@+id/gardenreport"
+        android:title="Garden Report"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:icon="@drawable/ic_control_point_black_24dp"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/addapot"
+                android:title="Add Pot"
+                android:onClick="createPot"
+                />
+            <item
+                android:id="@+id/addagarden"
+                android:title="Add Garden"
+                android:onClick="createGarden"
+                />
+        </menu>
+    </item>
+
+    <item
+
+        android:id="@+id/FAQ"
+        android:title="FAQ"
+        app:showAsAction="never"
+
+
+        ></item>
+
+
+
+</menu>
